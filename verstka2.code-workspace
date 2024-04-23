@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "verstka2",
+			"path": "."
+		},
+		{
+			"name": "footer",
+			"path": "../Desktop/footer"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "verstka2"
+	}
+}
