@@ -1,0 +1,535 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+    
+}
+button{
+    border: none;
+    cursor: pointer;
+
+}
+body{
+    width:1440px;
+    margin: 0 auto;
+    background: rgba(2, 6, 23, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    color:white;
+    width: 1440px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header article{
+    width: Hug (1,104px)px;
+    height: Hug (30px)px;
+    gap: 369px;
+    opacity: 0px;
+
+    display: flex;
+    justify-content: space-between;
+}
+header article div{
+    width: Hug (620px)px;
+    height: Hug (20px)px;
+    gap: 27px;
+    opacity: 0px;
+    display: flex;
+    color: rgba(156, 163, 175, 1);
+}
+.welcome {
+    width: 100%;
+    padding: 96px 165px;
+    background: rgba(17, 24, 39, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome article{
+    width: Hug (1,092px)px;
+    height: Hug (427px)px;
+    display: flex;
+    align-items: center;
+    gap: 199px;
+    opacity: 0px;
+
+}
+.welcome article div{
+    width:466px;
+    height:271px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    opacity: 0px;
+}
+.welcome article div aside{
+    display: flex;
+    flex-direction: column;
+    width:466px;
+    height: 153px;
+    gap: 20px;
+    opacity: 0px;
+}
+.welcome article aside p:first-child{color:white;font-size:42px;}
+.welcome article aside p:last-child{color:rgba(156, 163, 175, 1);font-size:16px;}
+.welcome article div button{
+    width:123px;
+    height:43px;
+    padding: 8px 20px 8px 20px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    background: rgba(250, 204, 21, 1);
+}
+.welcome article img{
+   border-radius: 24px;
+}
+.aboutme{
+    width: 1,108px;
+    height: 704px;
+    padding: 96px 0px 96px 0px;
+    gap: 89px;
+    opacity: 0px;
+    display: flex;
+    align-items: center;
+}
+.aboutme div{
+    width:509px;
+    height:348px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+.aboutme div span{font-size: 42px;}
+.aboutme div aside{
+    width: 509px;
+    height:153px;
+    gap: 18px;
+    opacity: 0px;
+    font-size: 18px; 
+    color:rgba(107, 114, 128, 1);
+    display: flex;
+    flex-direction: column;
+}
+.aboutme button{
+    width:124px;
+    height:59px;
+    padding: 16px 20px 16px 20px;
+    gap: 10px;
+    border-radius: 4px;
+    opacity: 0px;
+    background: rgba(234, 179, 8, 1);
+}
+.myservice{
+    width: 1,440px;
+    height: 759px;
+    padding: 96px 165px 96px 165px;
+    gap: 8px;
+    opacity: 0px;   
+    background: rgba(17, 24, 39, 1);
+
+}
+.myservice{
+    width: 1440px;
+    height: 759px;
+    background: rgba(17, 24, 39, 1);
+    display: flex;
+    gap:8px; 
+}
+.myservice main{
+    width: 1,110px;
+    height: 567px;
+    gap: 56px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.myservice main article{
+    width: 461px;
+    height: 169px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;    
+}
+.myservice main article span{
+    font-size:42px;
+    font-weight: 700;
+}
+.myservice main article p{
+    font-size: 16px;
+    line-height: 27px;
+    color:rgba(107, 114, 128, 1);
+}
+.myservice main aside{
+    width: 1,110px;
+    height: 342px;
+    gap: 30px;
+    display: flex;
+}
+.block{
+    width: 350px;
+    height: 342px;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 12px;
+    opacity: 0px;
+    background-color: rgba(2, 6, 23, 1);
+}
+.block div{
+    width: 286px;
+    height: 278px;
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.block div nav{
+    width: 286px;
+    height: 206px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    opacity: 0px;
+    text-align: center;
+}
+.block div nav p{
+    color: white;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 41px;
+}
+.block div nav span{
+    color:rgba(107, 114, 128, 1);
+    line-height: 27px;
+}
+.myportfolio{
+    width: 1,110px;
+    height: 1,006px;
+    padding: 96px 0px 96px 0px;
+    gap: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.myportfolio main{
+    width: 461px;
+    height: 169px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.myportfolio main h1{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: center;
+    color:white;
+}
+.myportfolio main span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    color:rgba(156, 163, 175, 1);
+}
+.myportfolio article{
+    width: 1,110px;
+    height: 565px;
+    gap: 27px;
+    display: flex;
+}
+.myportfolio article img{
+    width: 540px;
+    height: 565px;
+    border-radius: 12px;
+
+}
+.myportfolio aside{
+    width:543px;
+    height:565px;
+    gap: 31px;
+    display: flex;
+}
+.myportfolio aside div{
+    width: 256px;
+    height: 565px;
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+.myportfolio aside div img{
+    width: 256px;
+    height: 268px;
+    border-radius: 12px;
+}
+.myexperience{
+    width: 1424px;
+    height: 714px;
+    padding: 85px 149px 85px 149px;
+    gap: 8px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(25, 29, 40, 1);
+}
+.myexperience main{
+    width: 1126px;
+    height: 544px;
+    gap: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.myexperience main article{
+    width: 730px;
+    height: 42px;
+    gap: 24px;
+    opacity: 0px;
+}
+.myexperience main article h1{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+.myexperience main article span{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:rgba(156, 163, 175, 1);
+}
+.myexperience main aside{
+    width: 1126px;
+    height: 322px;
+    gap: 29px;
+    opacity: 0px;
+    display: flex;
+}
+.exp{
+    width: 366px;
+    height: 303px;
+    padding: 32px 0px 0px 0px;
+    gap: 8px;
+    border-radius: 12px;
+    opacity: 0px;
+    background-color: rgba(2, 6, 23, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.exp div{
+    width: 302px;
+    height: 239px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.exp div article{
+    width: 302px;
+    height: 204px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.exp div article aside{
+    width: 214px;
+    height: 72px;
+    gap: 4px;
+}
+.exp div article aside p{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 41px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.exp div article a{
+font-size: 16px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+text-decoration-skip-ink: none;
+padding-left: 10px;
+}
+.exp div h1{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+}
+.expLarge{
+    width: 336px;
+    height: 322px;
+    padding: 32px 0px 0px 0px;
+    gap: 8px;
+    border-radius: 12px 0px 0px 0px;
+    opacity: 0px;
+}
+.contactme{
+    width: 1,110px;
+    height: 742px;
+    padding: 96px 0px 96px 0px;
+    gap: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactme article{
+    width: 685px;
+    height: 142px;
+    gap: 24px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.contactme article h1{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+.contactme article span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    color: rgba(156, 163, 175, 1);
+}
+.contactme aside{
+    width: 1,110px;
+    height: 352px;
+    gap: 223px;
+    opacity: 0px;
+    display: flex;
+}
+.contactme aside nav{
+    width: 347px;
+    height: 253px;
+    gap: 16px;
+    opacity: 0px;
+    color: rgba(243, 244, 246, 1);
+    
+}
+.contactme aside nav li {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 41px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-decoration: none;
+    list-style: none;
+}
+.contactme aside main {
+    width: 540px;
+    height: 352px;
+    gap: 32px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.contactme aside main input{
+    border: none;
+    padding-left: 15px;
+}
+.name {
+    width: 350px;
+    height: 63px;
+    gap: 0px;
+    opacity: 0px;
+    color: rgba(243, 244, 246, 1);
+    background: rgba(31, 41, 55, 1);
+}
+.message{
+    width: 540px;
+    height: 166px;
+    gap: 0px;
+    opacity: 0px;
+    color: rgba(243, 244, 246, 1);
+    background: rgba(31, 41, 55, 1);
+}
+.message::placeholder{
+    position: absolute;
+    top:30px
+}
+.contactme aside main button{
+    width:124px;
+    height:59px;
+    padding: 16px 20px 16px 20px;
+    gap: 10px;
+    border-radius: 4px;
+    opacity: 0px;
+    background: rgba(234, 179, 8, 1);
+}
+footer{
+    width: 685px;
+    height: 320px;
+    padding: 56px 0px 56px 0px;
+    gap: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer article{
+    width: 685px;
+    height: 128px;
+    gap: 24px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+}
+footer article h1{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+footer article p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(156, 163, 175, 1);
+}
+footer aside{
+    width: 224px;
+    height: 24px;
+    gap: 16px;
+    display: flex;
+}
+footer aside img{
+    width: 24px;
+    height: 24px;
+}
